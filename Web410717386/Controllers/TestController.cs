@@ -23,6 +23,7 @@ namespace Web410717386.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.shadow = "hahaha";
             return View();
         }
     }
